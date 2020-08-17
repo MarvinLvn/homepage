@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+remote_theme:     poole/hyde
 
 # Permalinks
 permalink:        pretty
@@ -31,7 +32,7 @@ gscholar:         https://scholar.google.com/citations?hl=fr&user=QvKvn9sAAAAJ
 
 picture:
   path1:          images/picture.png
-  
+
 plugins:
   - jekyll-feed
   - jekyll-gist
