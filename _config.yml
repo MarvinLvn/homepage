@@ -13,7 +13,7 @@ team:             '<a href="http://www.lscp.net/persons/dupoux/bootphon/index.ht
 lab:              '<a href="https://lscp.dec.ens.fr/en">Cognitive Sciences & Psycholinguistic Laboratory</a>'
 description:      'PhD Student and open-science lover'
 url:              https://github.com/MarvinLvn/homepage/
-baseurl:          /
+baseurl:          /homepage
 
 author:
   name:           'Marvin Lavechin'
