@@ -13,7 +13,7 @@ team:             '<a href="http://www.lscp.net/persons/dupoux/bootphon/index.ht
 lab:              '<a href="https://lscp.dec.ens.fr/en">Cognitive Sciences & Psycholinguistic Laboratory</a>'
 description:      'PhD Student and open-science lover'
 url:              https://MarvinLvn.github.io/homepage
-baseurl:          /homepage
+baseurl:          /
 
 author:
   name:           'Marvin Lavechin'
@@ -31,3 +31,8 @@ gscholar:         https://scholar.google.com/citations?hl=fr&user=QvKvn9sAAAAJ
 
 picture:
   path1:          images/picture.png
+  
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
