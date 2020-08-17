@@ -3,35 +3,45 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<h2 class="post-title">About me</h2>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<font size="3"> Hi there ! I am a PhD student based in Paris. My research focuses on learning language from child-like data !
+By recording what stimuli children receive (speech, vision, etc.), we can build computational models behaving in a child-like manner.
+These models can be examined to predict developmental delays and learn more about what is useful for acquiring language.
+    But we can also exhibit failure cases where the child is better than the machine at doing its job in order to try to fix the machine.</font>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+<h2>Selected list of publications</h2>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<font size="3">A complete list of publications can be found <a href="https://scholar.google.com/citations?user=QvKvn9sAAAAJ&hl=fr&oi=ao" target="_blank"><span style="color:rgb(223, 10, 10)">here</span></a></font>
+
+<blockquote>
+  <p><strong><font size="3">An open-source voice type classifier for child-centered daylong recordings</font></strong><br />
+      <font size="2"><span style="text-decoration: underline;">Marvin Lavechin</span>, Ruben Bousbib, Hervé Bredin, Emmanuel Dupoux, Alejandrina Cristia<br />
+<a href="https://arxiv.org/abs/2005.12656" target="_blank"><span style="color:rgb(223, 10, 10)">ArXiV</span></a>
+          <a href="https://github.com/MarvinLvn/voice-type-classifier" target="_blank"><span style="color:rgb(223, 10, 10)">GitHub</span></a></p></font>
+  </p></font>
+</blockquote>
+
+<blockquote>
+  <p><strong><font size="3">End-to-end Domain-Adversarial Voice Activity Detection</font></strong><br />
+      <font size="2"><span style="text-decoration: underline;">Marvin Lavechin</span>, Marie-Philippe Gill, Ruben Bousbib, Hervé Bredin, Leibny Paola Garcia-Perera<br />
+<a href="https://arxiv.org/abs/1910.10655" target="_blank"><span style="color:rgb(223, 10, 10)">ArXiV</span></a>
+          <a href="https://github.com/hbredin/DomainAdversarialVoiceActivityDetection" target="_blank"><span style="color:rgb(223, 10, 10)">GitHub</span></a></p></font>
+  </p></font>
+</blockquote>
+
+<blockquote>
+  <p><strong><font size="3">A thorough evaluation of the Language Environment Analysis (LENA) system</font></strong><br />
+      <font size="2">Alejandrina Cristia, <span style="text-decoration: underline;">Marvin Lavechin</span>, Camila Scaff, Melanie Soderstrom, Caroline Rowland, Okko Räsänen, John Bunce, Elika Bergelson<br />
+<a href="https://www.researchgate.net/publication/334855802_A_thorough_evaluation_of_the_Language_Environment_Analysis_LENATM_system" target="_blank"><span style="color:rgb(223, 10, 10)">ResearchGate</span></a>
+          <a href="https://github.com/jsalt-coml/lena_eval" target="_blank"><span style="color:rgb(223, 10, 10)">GitHub</span></a></p></font>
+  </p></font>
+</blockquote>
+
+<blockquote>
+  <p><strong><font size="3">ALICE: An open-source tool for automatic measurement of phoneme, syllable, and word counts from child-centered daylong recordings</font></strong><br />
+      <font size="2">Okko Räsänen, Shreyas Seshadri, <span style="text-decoration: underline;">Marvin Lavechin</span>, Alejandrina Cristia, Marisa Casillas<br />
+<a href="https://www.researchgate.net/publication/334855802_A_thorough_evaluation_of_the_Language_Environment_Analysis_LENATM_system" target="_blank"><span style="color:rgb(223, 10, 10)">PsyArXiV</span></a>
+          <a href="https://github.com/orasanen/ALICE" target="_blank"><span style="color:rgb(223, 10, 10)">GitHub</span></a></p></font>
+  </p></font>
+</blockquote>

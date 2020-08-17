@@ -1,21 +1,23 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            'Marvin Lavechin'
+mail:             'marvin.lavechin@gmail.com'
+tagline:          'PhD Student'
+team:             '<a href="http://www.lscp.net/persons/dupoux/bootphon/index.html">Cognitive Machine Learning</a> team'
+lab:              '<a href="https://lscp.dec.ens.fr/en">Cognitive Sciences & Psycholinguistic Laboratory</a>'
+description:      'PhD Student and open-science lover'
+url:              https://github.com/MarvinLvn/homepage
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Marvin Lavechin'
+  url:            https://github.com/MarvinLvn/homepage
 
 paginate:         5
 
@@ -23,4 +25,9 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/MarvinLvn
+
+gscholar:         https://scholar.google.com/citations?hl=fr&user=QvKvn9sAAAAJ
+
+picture:
+  path1:          images/picture.png
