@@ -25,7 +25,7 @@ paginate:         5
 # Custom vars
 version:          2.1.0
 
-github:
+gitgit:
   repo:           https://github.com/MarvinLvn
 
 gscholar:         https://scholar.google.com/citations?hl=fr&user=QvKvn9sAAAAJ
